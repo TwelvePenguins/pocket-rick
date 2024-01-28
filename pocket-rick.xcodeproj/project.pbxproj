@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		553758742B664CCE00219306 /* pocket_rickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553758732B664CCE00219306 /* pocket_rickApp.swift */; };
+		553758762B664CCE00219306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553758752B664CCE00219306 /* ContentView.swift */; };
+		553758782B664CCF00219306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553758772B664CCF00219306 /* Assets.xcassets */; };
+		5537587B2B664CCF00219306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5537587A2B664CCF00219306 /* Preview Assets.xcassets */; };
+		553758852B664CCF00219306 /* pocket_rickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553758842B664CCF00219306 /* pocket_rickTests.swift */; };
+		5537588F2B664CCF00219306 /* pocket_rickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5537588E2B664CCF00219306 /* pocket_rickUITests.swift */; };
+		553758912B664CCF00219306 /* pocket_rickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553758902B664CCF00219306 /* pocket_rickUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553758812B664CCF00219306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553758682B664CCE00219306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5537586F2B664CCE00219306;
+			remoteInfo = "pocket-rick";
+		};
+		5537588B2B664CCF00219306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553758682B664CCE00219306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5537586F2B664CCE00219306;
+			remoteInfo = "pocket-rick";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		553758702B664CCE00219306 /* pocket-rick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocket-rick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553758732B664CCE00219306 /* pocket_rickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_rickApp.swift; sourceTree = "<group>"; };
+		553758752B664CCE00219306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		553758772B664CCF00219306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5537587A2B664CCF00219306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		553758802B664CCF00219306 /* pocket-rickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-rickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553758842B664CCF00219306 /* pocket_rickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_rickTests.swift; sourceTree = "<group>"; };
+		5537588A2B664CCF00219306 /* pocket-rickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-rickUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5537588E2B664CCF00219306 /* pocket_rickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_rickUITests.swift; sourceTree = "<group>"; };
+		553758902B664CCF00219306 /* pocket_rickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_rickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5537586D2B664CCE00219306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537587D2B664CCF00219306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553758872B664CCF00219306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553758672B664CCE00219306 = {
+			isa = PBXGroup;
+			children = (
+				553758722B664CCE00219306 /* pocket-rick */,
+				553758832B664CCF00219306 /* pocket-rickTests */,
+				5537588D2B664CCF00219306 /* pocket-rickUITests */,
+				553758712B664CCE00219306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		553758712B664CCE00219306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553758702B664CCE00219306 /* pocket-rick.app */,
+				553758802B664CCF00219306 /* pocket-rickTests.xctest */,
+				5537588A2B664CCF00219306 /* pocket-rickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		553758722B664CCE00219306 /* pocket-rick */ = {
+			isa = PBXGroup;
+			children = (
+				553758732B664CCE00219306 /* pocket_rickApp.swift */,
+				553758752B664CCE00219306 /* ContentView.swift */,
+				553758772B664CCF00219306 /* Assets.xcassets */,
+				553758792B664CCF00219306 /* Preview Content */,
+			);
+			path = "pocket-rick";
+			sourceTree = "<group>";
+		};
+		553758792B664CCF00219306 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5537587A2B664CCF00219306 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		553758832B664CCF00219306 /* pocket-rickTests */ = {
+			isa = PBXGroup;
+			children = (
+				553758842B664CCF00219306 /* pocket_rickTests.swift */,
+			);
+			path = "pocket-rickTests";
+			sourceTree = "<group>";
+		};
+		5537588D2B664CCF00219306 /* pocket-rickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5537588E2B664CCF00219306 /* pocket_rickUITests.swift */,
+				553758902B664CCF00219306 /* pocket_rickUITestsLaunchTests.swift */,
+			);
+			path = "pocket-rickUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5537586F2B664CCE00219306 /* pocket-rick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553758942B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rick" */;
+			buildPhases = (
+				5537586C2B664CCE00219306 /* Sources */,
+				5537586D2B664CCE00219306 /* Frameworks */,
+				5537586E2B664CCE00219306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pocket-rick";
+			productName = "pocket-rick";
+			productReference = 553758702B664CCE00219306 /* pocket-rick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5537587F2B664CCF00219306 /* pocket-rickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553758972B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rickTests" */;
+			buildPhases = (
+				5537587C2B664CCF00219306 /* Sources */,
+				5537587D2B664CCF00219306 /* Frameworks */,
+				5537587E2B664CCF00219306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553758822B664CCF00219306 /* PBXTargetDependency */,
+			);
+			name = "pocket-rickTests";
+			productName = "pocket-rickTests";
+			productReference = 553758802B664CCF00219306 /* pocket-rickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553758892B664CCF00219306 /* pocket-rickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5537589A2B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rickUITests" */;
+			buildPhases = (
+				553758862B664CCF00219306 /* Sources */,
+				553758872B664CCF00219306 /* Frameworks */,
+				553758882B664CCF00219306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5537588C2B664CCF00219306 /* PBXTargetDependency */,
+			);
+			name = "pocket-rickUITests";
+			productName = "pocket-rickUITests";
+			productReference = 5537588A2B664CCF00219306 /* pocket-rickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553758682B664CCE00219306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5537586F2B664CCE00219306 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5537587F2B664CCF00219306 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5537586F2B664CCE00219306;
+					};
+					553758892B664CCF00219306 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5537586F2B664CCE00219306;
+					};
+				};
+			};
+			buildConfigurationList = 5537586B2B664CCE00219306 /* Build configuration list for PBXProject "pocket-rick" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 553758672B664CCE00219306;
+			productRefGroup = 553758712B664CCE00219306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5537586F2B664CCE00219306 /* pocket-rick */,
+				5537587F2B664CCF00219306 /* pocket-rickTests */,
+				553758892B664CCF00219306 /* pocket-rickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5537586E2B664CCE00219306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5537587B2B664CCF00219306 /* Preview Assets.xcassets in Resources */,
+				553758782B664CCF00219306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537587E2B664CCF00219306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553758882B664CCF00219306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5537586C2B664CCE00219306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553758762B664CCE00219306 /* ContentView.swift in Sources */,
+				553758742B664CCE00219306 /* pocket_rickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5537587C2B664CCF00219306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553758852B664CCF00219306 /* pocket_rickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553758862B664CCF00219306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5537588F2B664CCF00219306 /* pocket_rickUITests.swift in Sources */,
+				553758912B664CCF00219306 /* pocket_rickUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		553758822B664CCF00219306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5537586F2B664CCE00219306 /* pocket-rick */;
+			targetProxy = 553758812B664CCF00219306 /* PBXContainerItemProxy */;
+		};
+		5537588C2B664CCF00219306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5537586F2B664CCE00219306 /* pocket-rick */;
+			targetProxy = 5537588B2B664CCF00219306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		553758922B664CCF00219306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		553758932B664CCF00219306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553758952B664CCF00219306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pocket-rick/Preview Content\"";
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553758962B664CCF00219306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pocket-rick/Preview Content\"";
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		553758982B664CCF00219306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocket-rick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pocket-rick";
+			};
+			name = Debug;
+		};
+		553758992B664CCF00219306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocket-rick.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pocket-rick";
+			};
+			name = Release;
+		};
+		5537589B2B664CCF00219306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pocket-rick";
+			};
+			name = Debug;
+		};
+		5537589C2B664CCF00219306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SMB4V4XL5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "du.yuhan.pocket-rickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pocket-rick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5537586B2B664CCE00219306 /* Build configuration list for PBXProject "pocket-rick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553758922B664CCF00219306 /* Debug */,
+				553758932B664CCF00219306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553758942B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553758952B664CCF00219306 /* Debug */,
+				553758962B664CCF00219306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553758972B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553758982B664CCF00219306 /* Debug */,
+				553758992B664CCF00219306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5537589A2B664CCF00219306 /* Build configuration list for PBXNativeTarget "pocket-rickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5537589B2B664CCF00219306 /* Debug */,
+				5537589C2B664CCF00219306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553758682B664CCE00219306 /* Project object */;
+}
